@@ -1,34 +1,16 @@
 @charset "utf-8";
 body {
-    background-image: url(images/Symbol%20Wallpaper_ExSmall.jpg);
-    background-repeat: repeat;
-    background-position: right top;
+    background-image: url(images/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
     font-family: "Lucida Calligraphy";
-}
-.headline {
-    font-size: 40px;
-    line-height: 0.95em;
-    margin-bottom: 10px;
-    font-family: "Lucida Calligraphy";
-    padding-top: 30px;
-    padding-bottom: 20px;
-    text-align: center;
-    word-spacing: 0.5em;
-    background-image: -webkit-linear-gradient(270deg,rgba(255,142,0,1.00) 0%,rgba(255,70,0,1.00) 98.96%,rgba(255,1,0,1.00) 98.96%,rgba(255,79,0,1.00) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(255,142,0,1.00) 0%,rgba(255,70,0,1.00) 98.96%,rgba(255,1,0,1.00) 98.96%,rgba(255,79,0,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(255,142,0,1.00) 0%,rgba(255,70,0,1.00) 98.96%,rgba(255,1,0,1.00) 98.96%,rgba(255,79,0,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(255,142,0,1.00) 0%,rgba(255,70,0,1.00) 98.96%,rgba(255,1,0,1.00) 98.96%,rgba(255,79,0,1.00) 100%);
-    color: #813300;
+    background-size: 1350px 2000px;
 }
 .col-xl-1 center span {
 
 }
 button {
 
-}
-
-.col-xl-7 center .navbar.navbar-expand-lg.navbar-light.bg-light {
-    margin-bottom: 0px;
 }
 .row .col-xl-4 .form-control.mr-sm-2 {
     display: compact;
@@ -46,11 +28,33 @@ search   {
 }
 .navbar   {
     margin-top: 20px;
-    background-color: rgba(255,79,0,1.00);
     font-family: "Lucida Calligraphy";
     font-size: 20px;
-    color: rgba(0,0,0,1.00);
+    color: rgba(255,255,255,1.00);
+    background-position: center center;
+    background-repeat: repeat;
+    text-align: center;
+    background-color: rgba(139,72,19,1.00);
+    border-radius: 5px;
+    background-size: contain;
 }
+.navbar-nav.mr-auto .nav-item.active .nav-link {
+    background-image: url(images/fream.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 130px 60px;
+    width: 120px;
+    height: 50px;
+    color: rgba(255,255,255,1.00);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.82);
+}
+.navbar-nav.mr-auto .nav-item.dropdown #navbarDropdown1 {
+    color: rgba(255,255,255,1.00);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.82);
+}
+
+
+
 
 .input-group {
 
@@ -60,7 +64,6 @@ search   {
     font-size: medium;
 }
 .container .container.blog {
-    background-color: rgba(255,79,0,1.00);
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 10px;
@@ -94,6 +97,162 @@ body iframe {
 }
 .searchbar button .fa.fa-search {
 }
+.container.body {
+    background-image: url(images/bgpaper001.jpg);
+    background-repeat: no-repeat;
+    width: 1500px;
+    background-attachment: fixed;
+    background-position: center center;
+    padding-top: 50px;
+    background-size: cover;
+}
+.container.body .container.blog {
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+.row .col-xl-3 .greek {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.row .col-xl-3 .norse {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.row .col-xl-3 .norse-text {
+    padding-top: 40px;
+}
+.row .col-xl-3 .egypt-text {
+    padding-top: 40px;
+}
+.row .col-xl-3 .japan-text {
+    padding-top: 40px;
+}
+
+
+
+
+
+.row .col-xl-3 .egypt {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.row .col-xl-3 .japan {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.navbar-nav.mr-auto .nav-item.dropdown #navbarDropdown3 {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.82);
+    color: rgba(255,255,255,1.00);
+}
+.navbar-nav.mr-auto .nav-item.dropdown #navbarDropdown4 {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.82);
+    color: rgba(255,255,255,1.00);
+}
+.navbar-nav.mr-auto .nav-item.dropdown #navbarDropdown5 {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.82);
+    color: rgba(255,255,255,1.00);
+}
+.container-fluid {
+    background-image: url(images/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container.body center #flip {
+    background-color: rgba(139,72,19,1.00);
+    color: rgba(255,255,255,1.00);
+    border: thin inset rgba(25,13,4,1.00);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.82);
+}
+.container.body .container.text .ammit {
+    width: 800px;
+    height: 300px;
+    margin-top: 30px;
+}
+.container.body .container.text p {
+    width: 750px;
+    height: 300px;
+}
+.row .col-xl-6 .greek-text {
+    width: 500px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+}
+.container-fluid .container.body .row {
+    width: 850px;
+}
+.row .col-xl-6 h5 {
+    padding-top: 40px;
+}
+.row .col-xl-6 .greek {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.row .col-xl-6 .norse {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.row .col-xl-6 .egypt {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.row .col-xl-6 h6 {
+    margin-top: 100px;
+}
+.row .col-xl-6 .img-fluid {
+
+}
+.row .col-xl-6 .img-fluid.bastet {
+    padding-top: 100px;
+}
+.container-fluid .container.body h2 {
+    margin-top: 50px;
+}
+.row .col-xl-6 .img-fluid.izanami {
+    margin-top: 150px;
+}
+.row .col-xl-6 .img-fluid.izanagi {
+    margin-top: 150px;
+}
+.row .col-xl-6 .img-fluid.ami {
+    margin-top: 100px;
+}
+.container.body center .container.title {
+    background-image: url(images/fream.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+    background-size: 500px 200px;
+}
+.container.body center h2 {
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    line-height: 3em;
+    background-image: url(images/fream.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 700px 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -109,22 +268,6 @@ body iframe {
 
 
 @media (min-width:768px){
-.headline {
-    font-size: 60px;
-    line-height: 0.85em;
-    margin-bottom: 30px;
-}
-.container .container.blog {
-    background-color: rgba(255,79,0,0.75);
-    font-family: "Lucida Calligraphy";
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-    border: 3px inset rgba(81,32,0,1.00);
-    font-size: 15px;
-    text-align: center;
-}
 
 
 }
@@ -134,21 +277,12 @@ body iframe {
     font-size: 85px;
     line-height: 0.9em;
     margin-bottom: 20px;
-}
-.container .container.blog {
-    background-color: rgba(255,79,0,0.75);
-    font-family: "Lucida Calligraphy";
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-    border: 3px inset rgba(81,32,0,1.00);
-    font-size: 25px;
-    text-align: center;
+    padding-top: 50px;
+    text-shadow: 1px 1px 3px;
+    color: rgba(163,93,32,1.00);
+    font-weight: bold;
 }
 
-
-}
 
 * {
   box-sizing: border-box;
@@ -169,13 +303,16 @@ form.searchbar button {
     float: left;
     width: 20%;
     padding: 10px;
-    background:rgba(255,79,0,1);
+    background-color: rgba(139,72,19,1.00);
     color: rgba(81,32,0,1.00);
     font-size: 17px;
     border: 1px solid rgba(129,51,0,1.00);
     border-left: none;
     cursor: pointer;
     margin-top: 20px;
+    background-image: url(images/Symbol%20Wallpaper_ExSmall.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 form.searchbar button:hover {
@@ -197,8 +334,11 @@ form.searchbar::after {
 }
 
 #panel {
-  padding: 50px;
-  display: none;
+    padding: 50px;
+    display: none;
+    background-color: rgba(139,72,19,1.00);
+    color: rgba(255,255,255,1.00);
+    border: thin outset rgba(0,0,0,1.00);
 }
 	
 	.container{
@@ -222,4 +362,28 @@ form.searchbar::after {
 
 .container {
     font-family: "Lucida Calligraphy";
+}
+.body {
+}
+.text {
+}
+.ammit {
+}
+
+.container-fluid .container.body p {
+    width: 800px;
+    height: 300px;
+    margin-top: 30px;
+}
+.main-text {
+}
+.bastet {
+}
+.izanami {
+}
+.izanagi {
+}
+.ami {
+}
+.title {
 }
